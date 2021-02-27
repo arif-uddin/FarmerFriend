@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Farmer Friend</string>
+    <string name="watermelon">তরমুজ চাষ</string>
+    <string name="paddy">ধান চাষ</string>
+    <string name="more_coming_soon">More....Coming Soon.</string>
+    <string name="watermelonGuideline">নির্দেশিকা</string>
+    <string name="watermelonFertilizer">তরমুজ গাছের\nসার ও ভিটামিন</string>
+    <string name="watermelonInsects">তরমুজ গাছের\nপোকা</string>
+    <string name="watermelonDisease">তরমুজ গাছের\nরোগ</string>
+    <string name="watermelonGLine"> ১. সাধারণত ফাল্গুন, চৈত্র ও বৈশাখ এই তিন মাস ধরে তরমুজ চাষ করা হয়\n\n
+২. সাধারণত ফাল্গুন মাসের প্রথম সপ্তাহে বীজ রোপন করা হয়\n\n
+৩. বীজ রোপণের ১৫ দিন পরে চারা গাছে সার ও জল দিতে হয়\n\n
+৪. ১-২ দিন পর চারা গাছে কীটনাশক স্প্রে করতে হয়\n\n
+৫. তার ৫-৬ দিন পর গোড়া বেঁধে ঝুরি সার দিতে হয়\n\n
+৬. ঝুড়ি সার দেওয়ার ২ দিন পর পানি দিতে হয়\n\n
+৭. পানি দেওয়ার ২ দিন পর কীটনাশক স্প্রে করতে হয়\n\n
+৮. স্প্রে করার ৫-৬ দিন পর আরেকটা জলসার দিতে হয়\n\n
+৯. জলসার করার ৬ দিন পর চারা গাছের গোড়ায় গোল করে কেটে চাপান দিতে হয়\n\n
+১০. প্রতি চারা গাছের গোড়ায় ১৫০গ্রাম করে মিশ্রিত সার দিতে হয়\n\n
+১১. এই চাপান দেওয়ার ১ দিন পরে পর্যাপ্ত পরিমাণ পানি দিতে হয়\n\n
+১২. পানি দেওয়ার ১ দিন পরে কীটনাশক স্প্রে করতে হয়\n\n
+১৩. এরপর থেকে তরমুজ যতদিন ক্ষেত থেকে বিক্রি করা না হবে ততদিন জলসার  এবং ভিটামিন স্প্রে চালিয়ে যেতে হবে\n\n
+১৪. সাধারণত তরমুজ বৈশাখ মাসের শেষ সপ্তাহের দিকে বিক্রির জন্য উপযুক্ত হয়ে যায়\n\n
+১৫. এবং তারপর থেকে তরমুজ বিক্রি করা শুরু হয়\n
+</string>
+    <string name="wFertilzerName">সারের নাম</string>
+    <string name="wFertilzerQuantity">পরিমাণ</string>
+    <string name="wFeildQuantity">জমির পরিমাণ</string>
+    <string name="tsp">TSP</string>
+    <string name="tenKg">১০ কেজি</string>
+    <string name="oneBigha">১ বিঘা</string>
+    <string name="eightKg">৮ কেজি</string>
+    <string name="jipsum">জিপসাম</string>
+    <string name="uriya">ইউরিয়া</string>
+    <string name="twentyKg">২০ কেজি</string>
+    <string name="zinc">দস্তা(Zinc)</string>
+    <string name="oneHalfKg">১.৫ কেজি</string>
+    <string name="boron">বোরন</string>
+    <string name="fourHGrm">৪০০ গ্রাম (স্প্রে)</string>
+    <string name="vaitamin">ভিটামিন</string>
+    <string name="fertilizer">সার</string>
+    <string name="mop">MOP</string>
+    <string name="flora">ফ্লোরা</string>
+    <string name="fourtymili">৪০ মি.লি.</string>
+    <string name="fotojin">ফটোজিন</string>
+    <string name="insectsName">পোকার নাম</string>
+    <string name="medicine">কীটনাশক</string>
+    <string name="scale">পরিমান</string>
+    <string name="area">জমি</string>
+    <string name="katuiInsects">কাটুই পোকা</string>
+    <string name="medicine1">দানাদার\n কীটনাশক</string>
+    <string name="medicine2">ভিরতাকো</string>
+    <string name="medicine3">অ্যামবুশ</string>
+    <string name="medicine4">ভার্টিমেক/\n এ্যালবা</string>
+    <string name="fiveml">৫ মি. লি.</string>
+    <string name="fourml">৪ মি. লি.</string>
+    <string name="fourfiveml">৫ মি. লি.\n ৪ মি. লি.</string>
+    <string name="dehaPoka">লেদা পোকা</string>
+    <string name="pataKamranoPoka">পাতা মোড়ানো\n পোকা</string>
+    <string name="guriPoka">গুড়ি পোকা</string>
+    <string name="diseaseType">গোড়া পচা অথবা ছত্রাক জনিত রোগের জন্য</string>
+    <string name="sign_up">সাইন আপ</string>
+    <string name="login">লগ ইন</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message">মেসেজ</string>
+    <string name="logout">লগ আউট</string>
+    <string name="email">ই-মেইল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="forgetPassword">পাসওয়ার্ড ভুলে গেছেন</string>
+    <string name="notRegisterd">নিবন্ধিত না ? এখানে নিবন্ধন করুন</string>
+    <string name="newaccount">নতুন অ্যাকাউন্ট</string>
+    <string name="fullname">পুরো নাম</string>
+    <string name="signup">নিবন্ধন করুন</string>
+    <string name="alreadyhaveaanaccount">ইতিমধ্যে একটি অ্যাকাউন্ট আছে? এখানে লগইন করুন</string>
+    <string name="passwordreset">পাসওয়ার্ড পুনরায় সেট করুন</string>
+    <string name="emailtoresetpassword">পাসওয়ার্ড রিসেট করতে আপনার ইমেল লিখুন</string>
+    <string name="resetLink">রিসেট লিংক আবেদন করুন</string>
+    <string name="toolbartitle">চাষের জন্য ফল ও ফসলের তালিকা</string>
+    <string name="importantPhotos">গুরুত্বপূর্ণ ছবি সমূহ</string>
+    <string name="fertilizerandvitamin">ধান গাছের সার ও ভিটামিন</string>
+    <string name="insects">ধান গাছের পোকা</string>
+    <string name="disease">ধান গাছের রোগ</string>
+    <string name="paddyGuideline">১. সাধারণত আষাঢ় মাসের শেষ সপ্তাহে বীজতলায় বীজ বপন করা হয়\n\n২. বীজ বপন করার ১৫ দিন পরে ধানের পাতায় সার ও কীটনাশক দিতে হয়\n\n৩. তারপর ৭ দিন পর আরও একবার কীটনাশক স্প্রে করে দিতে হয়\n\n৪. স্প্রে করার ৩-৪ দিন পরে ধানের পাতা উঠিয়ে পাতা জমিতে রোপন করতে হয়\n\n৫. পাতা রোপন করার ২০ দিন পর সকল পাতায় আবার কীটনাশক স্প্রে করে দিতে হয়\n\n৬. স্প্রে করার ১৫-২০ দিন পর জমিতে পরিমাণ মত সার প্রয়োগ করতে হয়\n\n৭. সার দেওয়ার ২-৩ দিন পর ছত্রাকনাশক এবং পোকামাকড় দমনের কীটনাশক স্প্রে করে দিতে হয়\n\n৮. এরপর ধান কাটার ২০ দিন আগে সকল জমিতে এবং সকল ধান গাছে আবার ভাল করে কীটনাশক স্প্রে করে দিতে হয়\n\n৯. তারপর ধান পাকলে চাষীরা ধান কাটা শুরু করে\n\n১০. এরপর ধান কেটে চাষীরা বাড়ি নিয়ে এসে মাড়াই করে\n</string>
+</resources>

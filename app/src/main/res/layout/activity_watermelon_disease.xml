@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context=".Activity.WatermelonDisease">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/watermelonDisease"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:text="@string/diseaseType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TableLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="#04DAF4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/medicine"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/wFertilzerQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/wFeildQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="রিভোমিন গোল্ড"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/fourtymili"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="থিয়োভিট"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/fourtymili"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="থিয়োভিট"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/fourtymili"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="থিয়োভিট"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/fourtymili"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:src="@mipmap/watermelon8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_margin="10dp"
+                android:src="@mipmap/watermelon9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:src="@mipmap/watermelon10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

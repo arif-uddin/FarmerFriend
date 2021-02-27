@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context=".Activity.PaddyDiseaseActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/disease"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:text="ব্লাস্ট এবং ছত্রাক জনিত রোগের জন্য"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TableLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:background="#04DAF4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/medicine"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/wFertilzerQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/wFeildQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="নাটিভো"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/fourtymili"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="এ্যামিষ্টার টপ"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="৬০ মি.লি."
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="স্কোর"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="৬০ মি.লি."
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/oneBigha"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+                </TableRow>
+                <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="সিলেক্ট প্লাস"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="৬০ মি.লি."
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/oneBigha"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+
+            </TableRow>
+
+
+                <TableRow
+                    android:background="#fff"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:src="@mipmap/paddy16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

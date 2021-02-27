@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.WatermelonGuideline">
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/watermelonGuideline"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/ic_background"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="@string/watermelonGLine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+                <ImageView
+                    android:src="@mipmap/watermelon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <ImageView
+                    android:src="@mipmap/watermelon2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <ImageView
+                    android:src="@mipmap/watermelon3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <ImageView
+                    android:src="@mipmap/watermelon4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

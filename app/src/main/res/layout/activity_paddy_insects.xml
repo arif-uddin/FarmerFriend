@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context=".Activity.PaddyInsectsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/insects"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#04DAF4">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/insectsName"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/medicine"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/scale"
+                        android:textColor="#000"
+                        android:textSize="18sp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/area"
+                        android:textColor="#000"
+                        android:textSize="18sp"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="মাজরা পোকা"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="আলটিমা"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="৯ মি.লি."
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/oneBigha"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#fff">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="কারেন্ট পোকা"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="কোটান, প্লেনাম,\nটাটা কারেন্ট"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="৯ মি.লি."
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/oneBigha"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="বাদামী গাছ ফড়িং\n(BPH)"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="কোটান, প্লেনাম"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="৯ মি.লি."
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/oneBigha"
+                        android:textColor="#000"
+                        android:textSize="18sp"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#fff">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/pataKamranoPoka"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="এ্যালবা"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="৬ মি.লি."
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/oneBigha"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="লেদা পোকা"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ভিরতাকো/\nকোরাজেল/\nনাইট্রো"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="৯ মি.লি./\n৬০ মি.লি."
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/oneBigha"
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#fff">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/paddy14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

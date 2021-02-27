@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/toolbartitle"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:background="@drawable/ic_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_watermelonfinal"
+            android:id="@+id/btnWatermelon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/watermelon"
+            android:background="@drawable/button_ripple"
+            android:textSize="20sp">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnPaddy"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_btnpaddy"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_ripple"
+            android:textSize="20sp"
+            android:text="@string/paddy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/more"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_mango"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_ripple"
+            android:textSize="20sp"
+            android:text="আরো আসছে..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

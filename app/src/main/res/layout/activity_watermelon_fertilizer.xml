@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context=".Activity.WatermelonFertilizer">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/watermelonFertilizer"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="@string/fertilizer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1.3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:background="#04DAF4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/wFertilzerName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/wFertilzerQuantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/wFeildQuantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/tsp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/tenKg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="MOP"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/eightKg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/jipsum"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/eightKg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/uriya"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/twentyKg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/zinc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneHalfKg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/boron"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/fourHGrm"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1.9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="@string/vaitamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:background="#04DAF4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="ভিটামিন"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/wFertilzerQuantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/wFeildQuantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/flora"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/fourtymili"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/fotojin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/fourtymili"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </TextView>
+                        <TextView
+                            android:textSize="18sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/oneBigha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

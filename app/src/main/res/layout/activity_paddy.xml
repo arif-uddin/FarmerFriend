@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context=".Activity.PaddyActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="@string/paddy"
+        android:id="@+id/toolbar"
+        android:background="#FFE8C869"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textColor="#fff"
+            android:id="@+id/guideline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_ripple"
+            android:text="@string/watermelonGuideline"
+            android:textSize="20sp">
+
+        </Button>
+        <Button
+            android:textColor="#fff"
+            android:id="@+id/fertilizerVitamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_ripple"
+            android:text="@string/fertilizerandvitamin"
+            android:textSize="20sp">
+
+        </Button>
+
+        <Button
+            android:textColor="#fff"
+            android:id="@+id/insects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_ripple"
+            android:text="@string/insects"
+            android:textSize="20sp">
+
+        </Button>
+
+
+        <Button
+            android:textColor="#fff"
+            android:id="@+id/disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_ripple"
+            android:text="@string/disease"
+            android:textSize="20sp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
